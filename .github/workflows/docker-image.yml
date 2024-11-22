@@ -6,9 +6,9 @@ on:
     branches:
       - master  
     paths:
-      - 'personal-project-rps/pythondocker/requirements.txt'  # Trigger only on changes to specific files
-      - 'personal-project-rps/pythondocker/app.py'             
-      - 'personal-project-rps/pythondocker/Dockerfile'
+      - 'pythondocker/requirements.txt'  # Trigger only on changes to specific files
+      - 'pythondocker/app.py'             
+      - 'pythondocker/Dockerfile'
 
 # Define the jobs and the sequence of steps
 jobs:
