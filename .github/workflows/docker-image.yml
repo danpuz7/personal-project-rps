@@ -33,13 +33,24 @@ jobs:
           # Build the Docker image using the correct directory as the build context
           docker build -t ${{ secrets.DOCKER_USERNAME }}/flask-app:${{ github.sha }} ./personal-project-rps/pythondocker
           
-      # Step 4: Push the Docker image to DockerHub
+      # Step 4: Implement Docker Scout to check for vulnerabilities
+      - name: Docker Scout
+        id: docker-scout
+        uses: docker/scout-action@v1
+        with:
+          command: cves,recommendations,compare
+          to-latest: true
+          ignore-base: true
+          ignore-unchanged: true
+          only-fixed: true
+
+      # Step 5: Push the Docker image to DockerHub
       - name: Push Docker image
         run: |
           # Push the image using the commit SHA (unique for every commit)
           docker push ${{ secrets.DOCKER_USERNAME }}/flask-app:${{ github.sha }}
           
-      # Step 5: Tag the image with 'latest' and push
+      # Step 6: Tag the image with 'latest' and push
       - name: Tag and Push latest
         run: |
           # Tag the image as 'latest' and push it
