@@ -38,10 +38,7 @@ jobs:
         id: docker-scout
         uses: docker/scout-action@v1
         with:
-          organization: ${{ secrets.DOCKER_USERNAME }}
           command: cves,recommendations
-          ignore-base: true
-          ignore-unchanged: true
           only-fixed: true
 
       # Step 5: Push the Docker image to DockerHub
