@@ -23,7 +23,7 @@ def play():
          (user_choice == "scissors" and computer_choice == "paper"):
         result = "You win! :)"
     else:
-        result = "You lose!! :("
+        result = "You lose! :("
 
     return render_template('result.html', user_choice=user_choice, computer_choice=computer_choice, result=result)
 
