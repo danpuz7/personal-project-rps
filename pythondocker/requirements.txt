@@ -1,2 +1,2 @@
 Flask==3.0.3
-setuptools>=70.0.0
+setuptools>=70.0.0 #Added to fix a vulnerability shown in Docker Scout
