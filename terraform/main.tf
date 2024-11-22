@@ -125,7 +125,7 @@ resource "aws_ecs_task_definition" "rps_task" {
 
   container_definitions = jsonencode([{
     name      = "rps-container"
-    image     = "danpuz7/flask-app:latest"  # Update this line with your Docker Hub image
+    image     = "danpuz7/flask-app:latest"  #Pulls from my public repo
     essential = true
     portMappings = [
       {
