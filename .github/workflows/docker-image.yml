@@ -31,7 +31,7 @@ jobs:
       - name: Build Docker image
         run: |
           # Build the Docker image using the correct directory as the build context
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/flask-app:${{ github.sha }} ./personal-project-rps/pythondocker
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/flask-app:${{ github.sha }} ./pythondocker
           
       # Step 4: Implement Docker Scout to check for vulnerabilities
       - name: Docker Scout
