@@ -7,7 +7,7 @@ ___
 ## 🌐 About 🌐
 ---
 ** If you are new to DevOps or adjacent fields, and don't understand some of the terms or tools, please refer to 
-[Frameworks and Tools](#-frameworks-and-tools)  
+[Frameworks and Tools](#-frameworks-and-tools-)  
 
 This Rock Paper Scissors project is intended to demonstrate knowledge and implementation of Python, Docker, Terraform, and CI/CD (GitHub Actions). The actual use of this project is to host a simple Rock Paper Scissors game against a computer.
 The project is able to be ran locally; the code has been containerized with Docker, accessible via a public image. 
