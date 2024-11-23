@@ -3,7 +3,7 @@ ___
 [About](#-about-)  
 [Prerequisites](#-prerequisites-)  
 [Usage](#-usage-)  
-[Frameworks and Tools](#️-frameworks-and-tools-)  
+[Frameworks and Tools][#-frameworks-and-tools-]  
 ## 🌐 About 🌐
 ---
 ** <sub> If you are new to DevOps or adjacent fields, and don't understand some of the terms or tools, please refer to </sub> [Frameworks and Tools](#frameworks-and-tools) 
@@ -99,3 +99,5 @@ __Requirements File 📄__
 A requirements file is a simple text file that lists all the Python packages your project needs. It’s like a shopping list for all the libraries and tools that your project depends on. When someone else wants to run your project, they can use this list to quickly install everything they need to get it up and running.  
 __Terraform File 🌍__      
 Terraform is a tool used to set up and manage infrastructure (like servers and databases) in a repeatable way. It allows you to write a configuration file (called a Terraform file) that describes how to set up everything your project needs, such as a cloud server. Terraform will then automatically create, modify, and manage these resources, saving time and reducing errors.  
+
+[def]: #️-frameworks-and-tools-
