@@ -100,6 +100,11 @@ __Requirements File 📄__
 A requirements file is a simple text file that lists all the Python packages your project needs. It’s like a shopping list for all the libraries and tools that your project depends on. When someone else wants to run your project, they can use this list to quickly install everything they need to get it up and running.  
 __Terraform File 🌍__      
 Terraform is a tool used to set up and manage infrastructure (like servers and databases) in a repeatable way. It allows you to write a configuration file (called a Terraform file) that describes how to set up everything your project needs, such as a cloud server. Terraform will then automatically create, modify, and manage these resources, saving time and reducing errors.  
+__CI/CD Pipelines with GitHub Actions ⚙️__  
+CI/CD stands for Continuous Integration and Continuous Deployment. It is all about automating the process of testing and deploying your code when you make changes. With GitHub Actions, there is a workflows folder that includes a .yml file; this is for the developer. GitHub runs tests to ensure the code works and automatically deploys it if everything passes. In this specific project, the purposes are mainly for testing the Docker image, as well as pushing the most recent version of the image to the public Docker Hub repository whenever there is a change in the application code.
+
+This makes development faster, ensures fewer bugs, and saves time on manual testing and deployment.
+
 
 [Back to Top](#personal-project-rps)
 
