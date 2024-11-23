@@ -83,7 +83,7 @@ type "yes
 ```
 This will automatically remove the resources created on your AWS Account. You will no longer incur charges for the time spent with your resources provisioned.
 
-## 🛠️ Frameworks and Tools 🛠️
+## 🔧 Frameworks and Tools 🔧  
 ---
 __HTML Templates__ 🖥️  
 HTML templates are pre-designed files that structure the content of a web page. They are like the blueprints for your website's layout. You can customize these templates with your own content, like text, images, and links, and they help make web pages look organized and easy to navigate.  
