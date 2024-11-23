@@ -3,7 +3,7 @@ ___
 [About](#-about-)  
 [Prerequisites](#-prerequisites-)  
 [Usage](#-usage-)  
-[Frameworks and Tools][#-frameworks-and-tools-]  
+[Frameworks and Tools](#-frameworks-and-tools-)  
 ## 🌐 About 🌐
 ---
 ** <sub> If you are new to DevOps or adjacent fields, and don't understand some of the terms or tools, please refer to </sub> [Frameworks and Tools](#frameworks-and-tools) 
