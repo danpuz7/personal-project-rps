@@ -29,8 +29,18 @@ Note that after creating an AWS account, charges may apply based on the resource
 ---
 ** <sub> This usage section assumes you are on Linux. You will need to figure out how to use the command line commands for other systems. </sub>    
 ### Docker
-To run this project locally, it can be done in one of two ways.   
-You will need to run these commands:
+To run this project locally, it can be done in one of three ways.  
+The easiest is using Docker Compose. You will need to run these commands:
+```
+git clone https://github.com/danpuz7/personal-project-rps.git
+cd personal-project-rps/pythondocker/
+docker-compose up
+```
+If your terminal does not tell you to use Ctrl+C, or pressing Ctrl+C does not stop your container (the webpage is still working), you would typically run 
+``` 
+docker-compose down
+```  
+If you are learning Docker and want some practice doing a manual Docker build and run, you will run these commands:
 ``` 
 git clone https://github.com/danpuz7/personal-project-rps.git
 cd personal-project-rps/pythondocker/
@@ -76,7 +86,7 @@ This will automatically remove the resources created on your AWS Account. You wi
 ## 🛠️ Frameworks and Tools 🛠️
 ---
 __HTML Templates__ 🖥️  
-HTML templates are pre-designed files that structure the content of a web page. Think of them as the blueprints for your website's layout. You can customize these templates with your own content, like text, images, and links, and they help make web pages look organized and easy to navigate.  
+HTML templates are pre-designed files that structure the content of a web page. They are like the blueprints for your website's layout. You can customize these templates with your own content, like text, images, and links, and they help make web pages look organized and easy to navigate.  
 __Python 🐍__   
 Python is a popular, easy-to-learn programming language. It’s great for beginners because it’s simple and readable. Python helps make your website "work" behind the scenes — like when someone submits a form or interacts with the page, Python is there doing the processing.  
 __Flask 🌶️__    
