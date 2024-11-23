@@ -1,9 +1,9 @@
 # Personal Project RPS
 ___
-[About](#about)  
-[Prerequisites](#prerequisites)  
-[Usage](#usage)  
-[Frameworks and Tools](#️frameworks-and-tools)  
+[About](#-about-)  
+[Prerequisites](#-prerequisites-)  
+[Usage](#-usage-)  
+[Frameworks and Tools](#️-frameworks-and-tools-)  
 ## 🌐 About 🌐
 ---
 ** <sub> If you are new to DevOps or adjacent fields, and don't understand some of the terms or tools, please refer to </sub> [Frameworks and Tools](#frameworks-and-tools) 
@@ -75,17 +75,17 @@ This will automatically remove the resources created on your AWS Account. You wi
 
 ## 🛠️ Frameworks and Tools 🛠️
 ---
-<u>HTML Templates</u> 🖥️  
+__HTML Templates__ 🖥️  
 HTML templates are pre-designed files that structure the content of a web page. Think of them as the blueprints for your website's layout. You can customize these templates with your own content, like text, images, and links, and they help make web pages look organized and easy to navigate.  
-<u>Python 🐍</u>  
+__Python 🐍__   
 Python is a popular, easy-to-learn programming language. It’s great for beginners because it’s simple and readable. Python helps make your website "work" behind the scenes — like when someone submits a form or interacts with the page, Python is there doing the processing.  
-<u>Flask 🌶️</u>  
+__Flask 🌶️__    
 Flask is a framework written in Python that helps you build web applications. It's like a toolset that makes it easier to create websites and APIs (the part of the website that talks to the database). Think of it as a helper that lets you quickly set up the structure of a web app, handle web requests, and display web pages.  
-<u>Docker 🐳</u>  
+__Docker 🐳__  
 Docker is a tool that helps developers create consistent environments for running their code. Imagine if you were moving into a new house — Docker packs up your code, along with everything it needs to run, and moves it into another computer without any problems. This is called containerization. It ensures your app works the same way no matter where it's running.  
-<u>Docker Compose 🏗️</u>  
+__Docker Compose 🏗️__  
 Docker Compose is a tool that helps you define and manage multi-container applications. In simple terms, if your project needs more than one Docker container (for example, one container for the web server and another for the database), Docker Compose helps tie them all together and run them at the same time. It’s like a manager that coordinates all the different parts of your app. This project does not need one currently, but may need one as more features are added.   
-<u>Requirements File 📄</u>    
+__Requirements File 📄__     
 A requirements file is a simple text file that lists all the Python packages your project needs. It’s like a shopping list for all the libraries and tools that your project depends on. When someone else wants to run your project, they can use this list to quickly install everything they need to get it up and running.  
-<u>Terraform File 🌍</u>    
+__Terraform File 🌍__      
 Terraform is a tool used to set up and manage infrastructure (like servers and databases) in a repeatable way. It allows you to write a configuration file (called a Terraform file) that describes how to set up everything your project needs, such as a cloud server. Terraform will then automatically create, modify, and manage these resources, saving time and reducing errors.  
